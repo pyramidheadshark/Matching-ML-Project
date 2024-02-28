@@ -73,12 +73,12 @@ print(predicted_words)
 
  # доступ к описаниям у вакансии и резюме
 
-print(job_description_data[0]["vacancy"])
-print(job_description_data[0]["failed_resumes"][0]["experienceItem"][0]['description'])
-print(job_description_data[0]["confirmed_resumes"][0]["experienceItem"][0]['description'])
-первый индекс вакансия
-второй индекс работник на данную вакансию
-третий индекс описание к месту работу
-встроенные циклы вам в помощь, увидимся в 8, жаль что код хуйня полная.
+#print(job_description_data[0]["vacancy"])
+#print(job_description_data[0]["failed_resumes"][0]["experienceItem"][0]['description'])
+#print(job_description_data[0]["confirmed_resumes"][0]["experienceItem"][0]['description'])
+#первый индекс вакансия
+#второй индекс работник на данную вакансию
+#третий индекс описание к месту работу
+#встроенные циклы вам в помощь, увидимся в 8, жаль что код хуйня полная.
 
 #%%
