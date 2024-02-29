@@ -11,7 +11,7 @@ def calculate_work_duration(start_date, end_date):
     return duration
 
 # Загрузка описания вакансии из JSON-файла
-with open('obuchalka.json', 'r', encoding='utf-8') as f:
+with open('../Samples/obuchenie.json', 'r', encoding='utf-8') as f:
     description_data = json.load(f)
     description = description_data[0]
 
