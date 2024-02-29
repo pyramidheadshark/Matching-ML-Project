@@ -60,4 +60,4 @@ def ai_parse_description(descriptions):  # Сюда впихиваем descripti
     for description in descriptions:
         message_inside = prompt_1 + "Context: ".join(description) + prompt_2
         response_vacancy = call_llama_api(message_inside)
-        print(response_vacancy)  # Вывод короче ебать
+        return response_vacancy["choices"][0]["message"]["content"]

@@ -76,6 +76,6 @@ def call_llama_api(message_to_model):
 
 def ai_parse_about(descriptions):  # Сюда впихиваем descriptions вакансий
     for description in descriptions:
-        message_inside = prompt_1_about + "Context: ".join(description) + prompt_2_about
+        message_inside = prompt_1_about + "Context: "+ description + prompt_2_about
         response_resume = call_llama_api(message_inside)
-        print(response_resume)  # Вывод короче ебать
+        return response_resume["choices"][0]["message"]["content"]
