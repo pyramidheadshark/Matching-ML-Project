@@ -16,7 +16,7 @@ programming_languages = [
     "Scala",
     "Haskell",
     "Lua",
-    "Shell scripting languages (e.g., Bash)",
+    "Bash",
     "Dart",
     "Objective-C",
     "Clojure",
@@ -38,8 +38,87 @@ programming_languages = [
     "Prolog",
     "Scheme",
     "Forth",
-    "Verilog"
-]
+    "Verilog",
+    "Assembly",
+    "Ada",
+    "Eiffel",
+    "Pascal",
+    "PL/I",
+    "Simula",
+    "Algol",
+    "Lisp",
+    "Visual Basic",
+    "Delphi",
+    "ActionScript",
+    "Cobra",
+    "D",
+    "E",
+    "Io",
+    "J",
+    "MATLAB",
+    "Oz",
+    "Squeak",
+    "Xojo",
+    "Zope",
+    "AppleScript",
+    "AutoHotkey",
+    "AutoIt",
+    "Boo",
+    "Ceylon",
+    "Clean",
+    "Curl",
+    "Dylan",
+    "Fantom",
+    "Ioke",
+    "Joule",
+    "Kaya",
+    "Nemerle",
+    "Nu",
+    "OPAL",
+    "Parrot",
+    "Perl 6",
+    "Pike",
+    "Qore",
+    "Seed7",
+    "Slate",
+    "SNOBOL",
+    "Spin",
+    "Squeak",
+    "Xojo",
+    "Zope",
+    "AppleScript",
+    "AutoHotkey",
+    "AutoIt",
+    "Boo",
+    "Ceylon",
+    "Clean",
+    "Curl",
+    "Dylan",
+    "Fantom",
+    "Ioke",
+    "Joule",
+    "Kaya",
+    "Nemerle",
+    "Nu",
+    "OPAL",
+    "Parrot",
+    "Perl 6",
+    "Pike",
+    "Qore",
+    "Seed7",
+    "Slate",
+    "SNOBOL",
+    "Spin",
+    "Squeak",
+    "Xojo",
+    "Zope",
+    "A#",
+    "A+",
+    "A++",
+    "ActiveScript",
+    "AmbientTalk",
+    "Apex",
+    "Arc"]
 web_development_frameworks = [
     "HTML",
     "CSS",
@@ -51,8 +130,96 @@ web_development_frameworks = [
     "Express",
     "Django",
     "Ruby on Rails",
-    "Flask"
-]
+    "Flask",
+    "ASP.NET",
+    "Laravel",
+    "Symfony",
+    "Svelte",
+    "Ember.js",
+    "Backbone.js",
+    "Polymer",
+    "Aurelia",
+    "Meteor",
+    "Knockout.js",
+    "Electron",
+    "Ionic",
+    "Cordova",
+    "React Native",
+    "Flutter",
+    "Xamarin",
+    "NativeScript",
+    "Unity",
+    "Cocos2d-x",
+    "Unreal Engine",
+    "Godot",
+    "Phaser",
+    "Construct 2",
+    "CryEngine",
+    "Source Engine",
+    "Unity WebGL",
+    "Three.js",
+    "Babylon.js",
+    "PlayCanvas",
+    "Ludei",
+    "CocoonJS",
+    "Appcelerator Titanium",
+    "Appcelerator Arrow",
+    "PhoneGap Build",
+    "Corona",
+    "Monaca",
+    "Kivy",
+    "Panda3D",
+    "LibGDX",
+    "Godot",
+    "HaxeFlixel",
+    "HaxePunk",
+    "OpenFL",
+    "Starling",
+    "CreateJS",
+    "ImpactJS",
+    "Crafty",
+    "EaselJS",
+    "Pixi.js",
+    "Famo.us",
+    "Whirlwind",
+    "Sencha Touch",
+    "Kendo UI",
+    "jQuery Mobile",
+    "Dojo Mobile",
+    "Ionic",
+    "Onsen UI",
+    "Framework7",
+    "MoSync",
+    "AppGyver",
+    "Trigger.io",
+    "Telerik Platform",
+    "Intel XDK",
+    "Adobe PhoneGap",
+    "Adobe Edge",
+    "Adobe AIR",
+    "Electron",
+    "Apache Cordova",
+    "Appcelerator Titanium",
+    "Appcelerator Arrow",
+    "PhoneGap Build",
+    "Corona",
+    "Monaca",
+    "Kivy",
+    "Panda3D",
+    "LibGDX",
+    "Godot",
+    "HaxeFlixel",
+    "HaxePunk",
+    "OpenFL",
+    "Starling",
+    "CreateJS",
+    "ImpactJS",
+    "Crafty",
+    "EaselJS",
+    "Pixi.js",
+    "Famo.us",
+    "Whirlwind",
+    "Sencha Touch"]
 database_technologies = [
     "SQL",
     "MySQL",
@@ -73,8 +240,90 @@ database_technologies = [
     "Amazon DynamoDB",
     "Firebase Realtime Database",
     "CockroachDB",
-    "Amazon Aurora"
-]
+    "Amazon Aurora",
+    "Apache Cassandra",
+    "Apache Hadoop",
+    "Apache Hive",
+    "Apache Impala",
+    "Apache Kudu",
+    "Apache Phoenix",
+    "Apache Spark",
+    "Apache TinkerPop",
+    "CouchDB",
+    "CrashPlan",
+    "DataStax Enterprise",
+    "Elasticsearch",
+    "Google BigQuery",
+    "Google Cloud Datastore",
+    "Google Cloud SQL",
+    "H2 Database Engine",
+    "HBase",
+    "HDFS",
+    "Hyperledger Fabric",
+    "IBM Cloudant",
+    "InfluxDB",
+    "MemSQL",
+    "MongoDB",
+    "Neo4j",
+    "Netezza",
+    "NexentaStor",
+    "Oracle NoSQL Database",
+    "OrientDB",
+    "Parquet",
+    "PostgreSQL",
+    "RethinkDB",
+    "ScyllaDB",
+    "Snowflake",
+    "Teradata",
+    "Vertica",
+    "VoltDB",
+    "YugabyteDB",
+    "ZODB",
+    "Amazon Redshift",
+    "Amazon SimpleDB",
+    "Azure Cosmos DB",
+    "Azure SQL Database",
+    "Cloudera Impala",
+    "Couchbase",
+    "CrateDB",
+    "Druid",
+    "Exasol",
+    "Firebird",
+    "H2O",
+    "Hadoop Distributed File System",
+    "Hazelcast",
+    "Hyperledger Iroha",
+    "IBM Db2",
+    "IBM InfoSphere",
+    "IBM Netezza",
+    "InterSystems Caché",
+    "InterSystems Ensemble",
+    "InterSystems IRIS",
+    "Kinetica",
+    "Kylin",
+    "MariaDB",
+    "MarkLogic",
+    "Microsoft Access",
+    "Microsoft SQL Server",
+    "MongoDB",
+    "MonetDB",
+    "MySQL",
+    "Netezza",
+    "Oracle",
+    "Oracle TimesTen",
+    "ParAccel",
+    "Percona Server",
+    "Phoenix",
+    "PostgreSQL",
+    "Progress Software",
+    "RavenDB",
+    "Redis",
+    "SAP HANA",
+    "ScyllaDB",
+    "SQLite",
+    "Teradata",
+    "Vertica",
+    "VoltDB"]
 networking_technologies = [
     "Ethernet",
     "Wi-Fi",
@@ -85,8 +334,28 @@ networking_technologies = [
     "VPN",
     "HTTP/HTTPS",
     "SSL/TLS",
-    "IPv4/IPv6"
-]
+    "IPv4/IPv6",
+    "ARP",
+    "RARP",
+    "ICMP",
+    "IGMP",
+    "RIP",
+    "OSPF",
+    "BGP",
+    "PPP",
+    "SLIP",
+    "PPTP",
+    "L2TP",
+    "GRE",
+    "IPSec",
+    "SSH",
+    "FTP",
+    "SMTP",
+    "POP3",
+    "IMAP",
+    "SNMP",
+    "LDAP",
+    "DHCPv6"]
 cloud_computing_technologies = [
     "Amazon Web Services (AWS)",
     "Microsoft Azure",
@@ -95,16 +364,31 @@ cloud_computing_technologies = [
     "Oracle Cloud",
     "Alibaba Cloud",
     "VMware Cloud",
-    "OpenStack"
-]
+    "OpenStack",
+    "DigitalOcean",
+    "Linode",
+    "Vultr",
+    "Heroku",
+    "Rackspace",
+    "SoftLayer",
+    "DreamHost",
+    "Cloudflare",
+    "AWS Outposts",
+    "AWS Snowball",
+    "AWS Snowcone",
+    "AWS Snowmobile",
+    "AWS Fargate",
+    "AWS Lambda"]
 virtualization_technologies = [
     "VMware",
     "VirtualBox",
     "Hyper-V",
     "KVM",
     "Xen",
-    "Docker"
-]
+    "Docker",
+    "QEMU",
+    "Vagrant",
+    "Parallels"]
 cybersecurity_technologies = [
     "Firewalls",
     "Intrusion Detection Systems (IDS)",
@@ -116,8 +400,7 @@ cybersecurity_technologies = [
     "Penetration testing tools (e.g., Metasploit, Nmap)",
     "Web Application Firewalls (WAF)",
     "Security assessment tools (e.g., Nessus, Qualys)",
-    "Endpoint security solutions"
-]
+    "Endpoint security solutions"]
 devops_tools = [
     "Jenkins",
     "Ansible",
@@ -128,8 +411,12 @@ devops_tools = [
     "Chef",
     "Prometheus",
     "Grafana",
-    "ELK Stack"
-]
+    "ELK Stack",
+    "SonarQube",
+    "Jira",
+    "Confluence",
+    "Bitbucket",
+    "AWS CodePipeline"]
 ai_ml_frameworks = [
     "TensorFlow",
     "PyTorch",
@@ -140,22 +427,107 @@ ai_ml_frameworks = [
     "Theano",
     "Microsoft Cognitive Toolkit (CNTK)",
     "H2O.ai",
-    "OpenAI Gym"
-]
+    "OpenAI Gym",
+    "Apache Spark",
+    "Apache Beam",
+    "Dask",
+    "Ray",
+    "Fast.ai",
+    "PaddlePaddle",
+    "TensorFlow.js",
+    "TensorFlow Lite",
+    "PyTorch Lightning",
+    "JAX",
+    "DeepLearning4J",
+    "Chainer",
+    "DyNet",
+    "Pytorch-Geometric",
+    "PyTorch-Lightning",
+    "PyTorch-BigGraph",
+    "PyTorch-Geometric",
+    "PyTorch-Forecasting",
+    "PyTorch-NLP"]
 version_control_systems = [
     "Git",
     "Subversion (SVN)",
     "Mercurial",
     "Perforce",
-    "Team Foundation Version Control (TFVC)"
-]
+    "Team Foundation Version Control (TFVC)",
+    "Apache Subversion (SVN)",
+    "Visual SourceSafe (VSS)",
+    "AccuRev",
+    "ClearCase",
+    "Darcs",
+    "Fossil",
+    "Monotone",
+    "Pijul",
+    "Plastic SCM",
+    "Veracity",
+    "BitKeeper",
+    "Codeville",
+    "SourceGear Vault",
+    "SourceSafe",
+    "SourceAnywhere",
+    "Team Foundation Server (TFS)",
+    "Alienbrain",
+    "Bazaar",
+    "CVSNT",
+    "GitHub",
+    "Launchpad",
+    "SVK",
+    "TortoiseSVN",
+    "VisualSVN Server",
+    "Axosoft OnTime",
+    "Atlassian Bitbucket",
+    "Atlassian Confluence",
+    "Atlassian Jira",
+    "Atlassian Stash",
+    "Atlassian Sourcetree",
+    "Atlassian Trello",
+    "Atlassian XWiki",
+    "Assembla",
+    "Bonsai",
+    "Codebase",
+    "CodebaseHQ",
+    "CodeBeamer",
+    "CodeCloud",
+    "CodeCo-op",
+    "CodePlex",
+    "Crucible",
+    "Electric Cloud",
+    "Fisheye",
+    "Gerrit",
+    "GitHub Enterprise",
+    "GitLab"]
 containerization_technologies = [
     "Docker",
     "Kubernetes",
     "Podman",
     "rkt",
-    "LXC"
-]
+    "LXC",
+    "OpenShift",
+    "Mesos",
+    "Nomad",
+    "HashiCorp Nomad",
+    "CoreOS rkt",
+    "Apache Mesos",
+    "Amazon ECS",
+    "Google Kubernetes Engine",
+    "Microsoft Azure Container Service",
+    "Red Hat OpenShift",
+    "Canonical Juju",
+    "VMware vSphere",
+    "Pivotal Cloud Foundry",
+    "IBM Cloud Private",
+    "SUSE Container as a Service",
+    "Red Hat OpenShift Origin",
+    "Microsoft Azure Service Fabric",
+    "Amazon EKS",
+    "Google Cloud Run",
+    "Google Cloud Functions",
+    "AWS Fargate",
+    "AWS Lambda",
+    "AWS Batch"]
 frontend_frameworks = [
     "React",
     "Angular",
@@ -166,8 +538,21 @@ frontend_frameworks = [
     "Backbone.js",
     "Svelte",
     "Preact",
-    "Mithril"
-]
+    "Mithril",
+    "Polymer",
+    "Aurelia",
+    "Knockout.js",
+    "D3.js",
+    "Chart.js",
+    "Three.js",
+    "Pixi.js",
+    "Phaser",
+    "Crafty",
+    "EaselJS",
+    "CreateJS",
+    "Fabric.js",
+    "Paper.js",
+    "Riot.js"]
 backend_frameworks = [
     "Django",
     "Flask",
@@ -178,8 +563,20 @@ backend_frameworks = [
     "ASP.NET",
     "Play Framework",
     "NestJS",
-    "FastAPI"
-]
+    "FastAPI",
+    "Sails.js",
+    "LoopBack",
+    "Hapi.js",
+    "Koa",
+    "Adonis.js",
+    "Feathers.js",
+    "Meteor",
+    "Rust",
+    "Go",
+    "Elixir",
+    "Phoenix",
+    "Sinatra",
+    "Grails"]
 mobile_platforms = [
     "Android (Java/Kotlin)",
     "iOS (Swift/Objective-C)",
@@ -190,8 +587,19 @@ mobile_platforms = [
     "Ionic",
     "NativeScript",
     "PhoneGap",
-    "Appcelerator Titanium"
-]
+    "Appcelerator Titanium",
+    "Unity (C#)",
+    "Cordova (JavaScript)",
+    "Electron (JavaScript)",
+    "React Native for Web (JavaScript)",
+    "Expo (JavaScript)",
+    "Corona (Lua)",
+    "Cocos2d-x (C++)",
+    "MoSync (C++)",
+    "Marmalade (C++)",
+    "GameMaker Studio (C++)",
+    "Construct 2 (JavaScript)",
+    "Godot (C++)"]
 testing_qa_tools = [
     "Selenium",
     "Jenkins",
@@ -202,8 +610,7 @@ testing_qa_tools = [
     "Cucumber",
     "TestNG",
     "LoadRunner",
-    "Robot Framework"
-]
+    "Robot Framework"]
 project_management_tools = [
     "Jira",
     "Trello",
@@ -214,8 +621,7 @@ project_management_tools = [
     "Wrike",
     "ClickUp",
     "Smartsheet",
-    "Redmine"
-]
+    "Redmine"]
 data_visualization_tools = [
     "Tableau",
     "Power BI",
@@ -226,8 +632,7 @@ data_visualization_tools = [
     "Looker",
     "Highcharts",
     "Sisense",
-    "Chart.js"
-]
+    "Chart.js"]
 automation_tools = [
     "Selenium",
     "Jenkins",
@@ -238,8 +643,7 @@ automation_tools = [
     "Robot Framework",
     "WinAppDriver",
     "AutoIt",
-    "Cypress"
-]
+    "Cypress"]
 microservice_technologies = [
     "Docker",
     "Kubernetes",
@@ -250,8 +654,17 @@ microservice_technologies = [
     "gRPC",
     "Istio",
     "Linkerd",
-    "Consul"
-]
+    "Consul",
+    "Apache Mesos",
+    "HashiCorp Nomad",
+    "Apache Kafka",
+    "RabbitMQ",
+    "Apache ActiveMQ",
+    "Apache Camel",
+    "Apache CXF",
+    "Apache ServiceMix",
+    "MuleSoft",
+    "WSO2"]
 serverless_platforms = [
     "AWS Lambda",
     "Azure Functions",
@@ -262,8 +675,7 @@ serverless_platforms = [
     "Kubeless",
     "OpenWhisk",
     "Fission",
-    "IronFunctions"
-]
+    "IronFunctions"]
 erp_systems = [
     "SAP ERP",
     "Oracle ERP Cloud",
@@ -274,8 +686,7 @@ erp_systems = [
     "Epicor ERP",
     "Sage Intacct",
     "Workday",
-    "SAP S/4HANA"
-]
+    "SAP S/4HANA"]
 cms_systems = [
     "WordPress",
     "Joomla",
@@ -286,8 +697,7 @@ cms_systems = [
     "Wix",
     "Weebly",
     "TYPO3",
-    "Umbraco"
-]
+    "Umbraco"]
 bi_analytics_tools = [
     "Tableau",
     "Power BI",
@@ -298,8 +708,7 @@ bi_analytics_tools = [
     "Sisense",
     "Domo",
     "MicroStrategy",
-    "TIBCO Spotfire"
-]
+    "TIBCO Spotfire"]
 nosql_databases = [
     "MongoDB",
     "Cassandra",
@@ -310,8 +719,24 @@ nosql_databases = [
     "RethinkDB",
     "RavenDB",
     "MarkLogic",
-    "Cosmos DB"
-]
+    "Cosmos DB",
+    "Apache Cassandra",
+    "CouchDB",
+    "Neo4j",
+    "OrientDB",
+    "Tarantool",
+    "VoltDB",
+    "Aerospike",
+    "MemcacheDB",
+    "Memcached",
+    "Riak",
+    "Scalaris",
+    "Tokyo Cabinet",
+    "Tokyo Tyrant",
+    "Project Voldemort",
+    "Berkeley DB",
+    "Drizzle",
+    "HBase"]
 ci_cd_tools = [
     "Jenkins",
     "Travis CI",
@@ -322,8 +747,7 @@ ci_cd_tools = [
     "Azure DevOps",
     "GitHub Actions",
     "GoCD",
-    "Drone"
-]
+    "Drone"]
 api_management_platforms = [
     "Apigee",
     "MuleSoft",
@@ -334,8 +758,7 @@ api_management_platforms = [
     "Kong",
     "Tyk",
     "WSO2 API Manager",
-    "3scale"
-]
+    "3scale"]
 lowcode_nocode_platforms = [
     "OutSystems",
     "Appian",
@@ -346,8 +769,7 @@ lowcode_nocode_platforms = [
     "Quick Base",
     "Zoho Creator",
     "Betty Blocks",
-    "Kissflow"
-]
+    "Kissflow"]
 bigdata_platforms_tools = [
     "Hadoop",
     "Spark",
@@ -358,8 +780,7 @@ bigdata_platforms_tools = [
     "Cassandra",
     "HBase",
     "Druid",
-    "Databricks"
-]
+    "Databricks"]
 enterprise_messaging_systems = [
     "RabbitMQ",
     "Apache Kafka",
@@ -370,173 +791,163 @@ enterprise_messaging_systems = [
     "Microsoft Azure Service Bus",
     "RocketMQ",
     "NATS",
-    "Solace"
-]
+    "Solace"]
 cdn_technologies = [
     "Akamai",
     "Cloudflare",
     "Amazon CloudFront",
     "Fastly",
-    "Limelight Networks"
-]
+    "Limelight Networks"]
 graph_db_technologies = [
     "Neo4j",
     "Amazon Neptune",
     "TigerGraph",
     "ArangoDB",
-    "JanusGraph"
-]
+    "JanusGraph"]
 data_warehouse_technologies = [
     "Amazon Redshift",
     "Google BigQuery",
     "Snowflake",
     "Microsoft Azure Synapse Analytics",
-    "Oracle Exadata"
-]
+    "Oracle Exadata"]
 bpm_tools = [
     "Pega",
     "Appian",
     "IBM Business Process Manager",
     "Oracle BPM",
-    "Bizagi"
-]
+    "Bizagi"]
 blockchain_technologies = [
     "Ethereum",
     "Hyperledger Fabric",
     "Corda",
     "Quorum",
-    "Stellar"
-]
+    "Stellar",
+    "R3 Corda",
+    "Hyperledger Sawtooth",
+    "Hyperledger Iroha",
+    "Hyperledger Burrow",
+    "Hyperledger Indy",
+    "Hyperledger Cactus",
+    "Hyperledger Besu",
+    "Hyperledger Avalon",
+    "Hyperledger Caliper",
+    "Hyperledger Iris",
+    "Hyperledger Grid",
+    "Hyperledger URSAL",
+    "Hyperledger Cello",
+    "Hyperledger Explorer",
+    "Hyperledger Umbra"]
 iam_solutions = [
     "Okta",
     "Azure Active Directory",
     "Ping Identity",
     "OneLogin",
-    "ForgeRock"
-]
+    "ForgeRock"]
 apm_solutions = [
     "New Relic",
     "Datadog",
     "AppDynamics",
     "Dynatrace",
-    "Splunk"
-]
+    "Splunk"]
 robotics_automation_technologies = [
     "UiPath",
     "Automation Anywhere",
     "Blue Prism",
     "Kofax",
-    "Pegasystems"
-]
+    "Pegasystems"]
 edge_computing_solutions = [
     "AWS Greengrass",
     "Microsoft Azure IoT Edge",
     "Google Cloud IoT Edge",
     "Dell Edge Gateway",
-    "Cisco Kinetic"
-]
+    "Cisco Kinetic"]
 ar_vr_development_tools = [
     "Unity",
     "Unreal Engine",
     "ARKit",
     "Vuforia",
-    "Oculus SDK"
-]
+    "Oculus SDK"]
 cognitive_computing_frameworks = [
     "IBM Watson",
     "Microsoft Cognitive Toolkit (CNTK)",
     "Apache OpenNLP",
     "TensorFlow",
-    "Keras"
-]
+    "Keras"]
 dam_systems = [
     "Adobe Experience Manager",
     "Bynder",
     "Widen Collective",
     "Canto",
-    "Brandfolder"
-]
+    "Brandfolder"]
 data_science_platforms = [
     "Anaconda",
     "Databricks",
     "Dataiku",
     "RapidMiner",
-    "KNIME"
-]
+    "KNIME"]
 nlp_libraries_frameworks = [
     "NLTK (Natural Language Toolkit)",
     "SpaCy",
     "Stanford NLP",
     "Gensim",
-    "AllenNLP"
-]
+    "AllenNLP"]
 bioinformatics_tools = [
     "Bioconductor",
     "Genome Analysis Toolkit (GATK)",
     "BLAST (Basic Local Alignment Search Tool)",
     "Cytoscape",
-    "Biopython"
-]
+    "Biopython"]
 knowledge_management_systems = [
     "Confluence",
     "SharePoint",
     "Notion",
     "Bloomfire",
-    "Document360"
-]
+    "Document360"]
 enterprise_search_solutions = [
     "Elastic Enterprise Search",
     "Apache Solr",
     "Swiftype",
     "Coveo",
-    "Algolia"
-]
+    "Algolia"]
 dlp_tools = [
     "Symantec DLP",
     "McAfee DLP",
     "Digital Guardian",
     "Forcepoint DLP",
-    "Code42"
-]
+    "Code42"]
 ecommerce_platforms = [
     "Shopify",
     "Magento",
     "WooCommerce",
     "BigCommerce",
-    "Salesforce Commerce Cloud"
-]
+    "Salesforce Commerce Cloud"]
 crm_systems = [
     "Salesforce",
     "HubSpot CRM",
     "Microsoft Dynamics 365",
     "Zoho CRM",
-    "Pipedrive"
-]
+    "Pipedrive"]
 scm_software = [
     "SAP SCM",
     "Oracle SCM",
     "JDA Software",
     "Kinaxis",
-    "Manhattan Associates"
-]
+    "Manhattan Associates"]
 emr_systems = [
     "Epic Systems",
     "Cerner",
     "Allscripts",
     "MEDITECH",
-    "NextGen Healthcare"
-]
+    "NextGen Healthcare"]
 hrms_systems = [
     "Workday",
     "SAP SuccessFactors",
     "Oracle HCM Cloud",
     "BambooHR",
-    "ADP Workforce Now"
-]
+    "ADP Workforce Now"]
 lms_systems = [
     "Moodle",
     "Canvas",
     "Blackboard Learn",
     "D2L Brightspace",
-    "Google Classroom"
-]
+    "Google Classroom"]
