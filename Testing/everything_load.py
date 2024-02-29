@@ -45,8 +45,8 @@ def load_failed_resume_by_pos(failed_resumes_data, pos):
     key_skills = resume['key_skills']
     location = [resume['country'], resume['city']]
     about = resume['about']
-    experienceItem = resume['experienceItem']
-    educationItem = resume['educationItem']
+    experienceItem = resume.get('experienceItem', [])
+    educationItem = resume.get('educationItem', [])
     return [uuid, key_skills, location, about, define_experience_items(experienceItem),
             define_education_items(educationItem)]
 
@@ -57,10 +57,9 @@ def load_confirmed_resume_by_pos(confirmed_resumes_data, pos):
     key_skills = resume['key_skills']
     location = [resume['country'], resume['city']]
     about = resume['about']
-    experienceItem = resume['experienceItem']
-    educationItem = resume['educationItem']
-    return [uuid, key_skills, location, about, define_experience_items(experienceItem),
-            define_education_items(educationItem)]
+    experienceItem = resume.get('experienceItem', [])
+    educationItem = resume.get('educationItem', [])
+    return [uuid, key_skills, location, about, define_experience_items(experienceItem), define_education_items(educationItem)]
 
 
 def define_education_items(educationItem):
@@ -74,15 +73,8 @@ def define_education_items(educationItem):
 
 
 def define_experience_items(experienceItem):
-    count_years = float(0)
-    experience_descriptions = str()
-    for item in experienceItem:
-        if item['ends'] is not None:
-            count_years += calculate_work_duration(item['starts'], item['ends'])
-        else: count_years += calculate_work_duration(item['starts'], datetime.now().strftime('%Y-%m-%d'))
-        experience_descriptions.join(item['description'])
-
-    return [count_years, experience_descriptions]
+    experience_descriptions = [item['description'] for item in experienceItem if item.get('description')]
+    return ' '.join(experience_descriptions)
 
 
 def final_everything_load():
@@ -104,4 +96,5 @@ def final_everything_load():
     return final_resumes_base
 
 
-print(final_everything_load())
+
+print(final_everything_load()[0])
