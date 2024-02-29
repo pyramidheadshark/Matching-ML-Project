@@ -42,7 +42,7 @@ def call_llama_api(message_to_model):
     fetch_url_format = "https://api.nvcf.nvidia.com/v2/nvcf/pexec/status/"
 
     headers = {
-        "Authorization": "Bearer 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",
+        "Authorization": "Bearer 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",
         "Accept": "application/json",
     }
 
@@ -50,7 +50,7 @@ def call_llama_api(message_to_model):
         "messages": [
             {
                 "content": message_to_model,
-                "role": "system"
+                "role": "user"
             }
         ],
         "temperature": 0.2,
@@ -74,8 +74,7 @@ def call_llama_api(message_to_model):
     return response_body
 
 
-def ai_parse_about(descriptions):  # Сюда впихиваем descriptions вакансий
-    for description in descriptions:
-        message_inside = prompt_1_about + "Context: "+ description + prompt_2_about
-        response_resume = call_llama_api(message_inside)
-        return response_resume["choices"][0]["message"]["content"]
+def ai_parse_about(description):
+    message_inside = prompt_1_about + "Context: "+ description + prompt_2_about
+    response_resume = call_llama_api(message_inside)
+    return response_resume["choices"][0]["message"]["content"]

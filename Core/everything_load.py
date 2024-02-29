@@ -12,7 +12,7 @@ def calculate_work_duration(start_date, end_date):
 # Загрузка описания вакансии из JSON-файла
 
 def load_full_description():
-    with open('../Samples/obuchenie.json', 'r', encoding='utf-8') as f:
+    with open('Samples/obuchenie.json', 'r', encoding='utf-8') as f:
         description_data = json.load(f)
         return description_data
 
@@ -83,7 +83,7 @@ def define_experience_items(experienceItem):
         if item['ends'] is not None:
             result_years += calculate_work_duration(item['starts'], item['ends'])
         else:
-            result_years += calculate_work_duration(item['starts'], '2024-03-01') ### ахахахаха что это
+            result_years += calculate_work_duration(item['starts'], '2024-03-01')  ### ахахахаха что это
     return [result_description, result_years]
 
 
