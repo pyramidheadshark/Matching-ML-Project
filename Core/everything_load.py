@@ -59,7 +59,8 @@ def load_confirmed_resume_by_pos(confirmed_resumes_data, pos):
     about = resume['about']
     experienceItem = resume.get('experienceItem', [])
     educationItem = resume.get('educationItem', [])
-    return [uuid, key_skills, location, about, define_experience_items(experienceItem), define_education_items(educationItem)]
+    return [uuid, key_skills, location, about, define_experience_items(experienceItem),
+            define_education_items(educationItem)]
 
 
 def define_education_items(educationItem):
@@ -73,11 +74,20 @@ def define_education_items(educationItem):
 
 
 def define_experience_items(experienceItem):
-    experience_descriptions = [item['description'] for item in experienceItem if item.get('description')]
-    return ' '.join(experience_descriptions)
+    result_description = str()
+    result_years = float()
+    for i in range(len(experienceItem)):
+        item = experienceItem[i]
+        if item['description'] is not None:
+            result_description += (item['description'])
+        if item['ends'] is not None:
+            result_years += calculate_work_duration(item['starts'], item['ends'])
+        else:
+            result_years += calculate_work_duration(item['starts'], '2024-03-01') ### ахахахаха что это
+    return [result_description, result_years]
 
 
-def final_everything_load():
+def final_everything_load_test_case():
     final_resumes_base = []
     description_data = load_full_description()
     for i in range(len(description_data) - 1):
@@ -86,7 +96,6 @@ def final_everything_load():
         confirmed_resumes_data = load_confirmed_resumes(load_full_description_by_pos(description_data, i))
         local_resumes_data = []
         for j_failed in range(len(failed_resumes_data) - 1):
-            print(j_failed, "failed")
             local_resumes_data.append(load_failed_resume_by_pos(failed_resumes_data, j_failed))
         for j_confirmed in range(len(confirmed_resumes_data) - 1):
             local_resumes_data.append(load_confirmed_resume_by_pos(confirmed_resumes_data, j_confirmed))
@@ -94,7 +103,3 @@ def final_everything_load():
         final_resumes_base.append(local_description_data)
 
     return final_resumes_base
-
-
-
-print(final_everything_load()[0])

@@ -36,6 +36,7 @@ IF YOU THINK THAT YOU CANNOT FIND THE NECESSARY INFORMATION ON ONE OF THE TOPICS
 prompt_2_about = """
 Question: Summarize the text, find in it all the words from 3 topics: "Чем занимается" (NO MAXIMUM), "Сертификаты" (MAXIMUM OF 5 LINES), "дополнительная информация" (MAXIMUM OF 3 LINES. WRITE DOWN ONLY THE NAMES OF IT TECHNOLOGIES). [/INST]"""
 
+
 def call_llama_api(message_to_model):
     invoke_url = "https://api.nvcf.nvidia.com/v2/nvcf/pexec/functions/e0bb7fb9-5333-4a27-8534-c6288f921d3f"
     fetch_url_format = "https://api.nvcf.nvidia.com/v2/nvcf/pexec/status/"
