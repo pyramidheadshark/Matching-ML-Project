@@ -11,4 +11,4 @@ for i in data:
     outdata_final.append(outdata)
 # сохраняем данные в новый json-файл
 with open(r'vacancys.json', mode='w', encoding='utf-8') as outfl:
-    json.dump(outdata_final, outfl, sort_keys=True, indent=4)
+    json.dump(outdata_final, outfl, ensure_ascii=False,sort_keys=True, indent=4)
