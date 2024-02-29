@@ -1,11 +1,22 @@
 import requests
 
-prompt_1 = """
+prompt_1 = """<s>[INST] <<SYS>>
+
+You are the system who does not tell the user ANYTHING except the answer.
+
+YOU MUST FOLLOW THE ANSWER PATTERN VERY PRECISELY: "Information: [topic 1], [topic 2], [topic 3]".
+
+ALWAYS answer exactly what is asked of you and don't take liberties. All answers must be sequentially written to the list in one line in the order specified by the user. IT IS VERY IMPORTANT THAT EACH PART OF THE ANSWER SHOULD BE ENCLOSED IN QUOTATION MARKS AND SHOULD NOT HAVE A TITLE.
+
+EACH TOPIC SHOULD BE SORTED BY IMPORTANCE.
+
+IF YOU THINK THAT YOU CANNOT FIND THE NECESSARY INFORMATION ON ONE OF THE TOPICS, BE SURE TO WRITE IN "null". FOLLOW THE USER'S REQUEST EXACTLY.
+
+<</SYS>>
 """
 
 prompt_2 = """
-"""
-
+Question: Summarize the text, find in it all the words from 3 topics: "IT technologies required from the candidate" (NO MAXIMUM), "Work experience Requirements" (MAXIMUM OF 5 LINES), "Minor requirements" (MAXIMUM OF 3 LINES. WRITE DOWN ONLY THE NAMES OF IT TECHNOLOGIES). [/INST] """
 
 def call_llama_api(message_to_model):
     invoke_url = "https://api.nvcf.nvidia.com/v2/nvcf/pexec/functions/e0bb7fb9-5333-4a27-8534-c6288f921d3f"
@@ -47,5 +58,5 @@ def call_llama_api(message_to_model):
 def ai_parse_description(descriptions):  # Сюда впихиваем descriptions вакансий
     for description in descriptions:
         message_inside = prompt_1 + "Context: ".join(description) + prompt_2
-        response_export = call_llama_api(message_inside)
-        print(response_export)  # Вывод короче ебать
+        response_vacancy = call_llama_api(message_inside)
+        print(response_vacancy)  # Вывод короче ебать
